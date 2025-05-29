@@ -1,4 +1,4 @@
-# 🈴 🎒 SfideUniVR – Homepage of the Verona Course in Discrete Optimization and Decision Making
+# 🈴 🎒 DODMuniVR – Homepage of the Verona Course in Discrete Optimization and Decision Making
 
 Welcome to the repository **DODMuniVR**, reference point for the Discrete Optimization and Decision Making (DODM) course at **University of Verona**. It is an optional course that aims to be an open space that can be attended regardless of the degree program as long as you are interested in problem solving and/or competitive programming.
 
