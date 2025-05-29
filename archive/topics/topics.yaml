@@ -1,0 +1,72 @@
+---
+ILP_modeling:
+  readme_title: Pensiero Ricorsivo
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+LP_modeling:
+  readme_title: Pensiero Ricorsivo
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+pensiero_ricorsivo:
+  readme_title: Pensiero Ricorsivo
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+programmazione_dinamica:
+  readme_title: Programmazione Dinamica
+  related: [ricorsione_con_memoizzazione]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+enumeration:
+  readme_title: Enumerazione
+  related: [ranking_unranking, counting,backtracking]
+  suptopics: [pensiero_ricorsivo]
+  requirements: [pensiero_ricorsivo]
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+grafi:
+  readme_title: Grafi
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+greedy:
+  readme_title: Greedy
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+buone_caratterizzazioni:
+  readme_title: Buone Caratterizzazioni
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+riduzioni:
+  readme_title: Riduzioni
+  materiali:
+    scritti:
+    video:
+    tutorial:
+    risorse:
+
+...
