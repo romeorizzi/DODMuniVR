@@ -21,6 +21,7 @@ We coordinate and interact via [Telegram Group](https://t.me/DiscreteOptimizatio
 Working tools Strumenti di lavoro e informazioni importanti per orientarsi nel corso:
 
 - Link to the [DODM Telegram Group](https://t.me/DiscreteOptimization)
+- [How the exam is organized](exams/DODM_exam_and_topics_list_2025.pdf)
 - [RTAL 💻 - our platform for the homework and for the project](tools/)
 - [To know more about RTAL 💻 - A more advanced Guide](tools/IT_the-TALight-Problem-Solver-Tutorial1-internet-server.md💻)
 
