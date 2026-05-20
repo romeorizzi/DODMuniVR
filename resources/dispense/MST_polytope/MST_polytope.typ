@@ -107,7 +107,7 @@ The total number of MSTs is therefore $2 times 3 times 5 = 30$.
 
 *Lemma [Cycle]:* If $e$ is an edge of maximum cost in some cycle $C$ of $G$ then there exists an MST $T$ of $G$ with $e in.not T$. 
 
-*Lemma [Cut]:* If $e$ is an edge of minimum cost in some cut $delta(S)$ of $G$ then there exists an MST $T$ of $G$ with $e in.not T$. 
+*Lemma [Cut]:* If $e$ is an edge of minimum cost in some cut $delta(S)$ of $G$ then there exists an MST $T$ of $G$ with $e in T$. 
 
 These two lemmas provide us with two convenient languages to yes-certificate or no-certificate on whether an edge belongs to some/all/no MSTs for the given input.
 For example, still with reference to the graph pictured more above:
@@ -157,7 +157,7 @@ This could have been more neatly deduced also by considering just the following 
 
 3. $E(G_i) union F_i = E(G)$ for every $i$
 
-and observing that Invariant~3 implies that Invariant~3 implies $F_m = G_m$.
+and observing that Invariant~3 implies $F_m = G_m$.
 
 The fact that the spanning tree $F_m$ is an MST can be deduced from the Cycle Lemma with this consideration:
 since whenever a cycle $C$ was present in $F_(i-1) union {e_i}$ then $e_i$ was an edge of maximum cost in the cycle $C$ of the graph $G_(i-1)$, hence it can be deleted away from $G_(i-1)$, which results in moving to $G_i$ at this point.
@@ -229,7 +229,7 @@ Therefore, if we could act _recognition of validity_ in polynomial time, then MS
 The convex hull of a finite set of points is always a polytope; when it is fully dimensional then its minimal constraint description is always unique: it contains precisely those inequalities that are facet defining. The polytope $"conv_hull"("ST"; K_n)$ is not fully dimensional since it is contained in the plane $sum_(e in E) x_e = n-1$, however, $sum_(e in E) x_e = n-1$ is essentially (i.e., except for multiplying if by a non-zero real number) the only linear equation that is valid for $"conv_hull"("ST"; K_n)$, hence we can take $sum_(e in E) x_e = n-1$ has our first constraint.
 After this, since $"conv_hull"("ST"; K_n)$ is full dimensional within the plane $sum_(e in E) x_e = n-1$, then every other constraint in any minimal description of $"conv_hull"("ST"; K_n)$ will be a facet defining inequality.
 Indeed, the affine dimension of the plane $sum_(e in E) x_e = n-1$ can not be bigger than $m-1 := sscript(binom(n,2))$ since the plane is contained in $RR^m$. To show that it is precisely $m-1$, we exhibit $m$ affinely independent points $p_e$, $e in E(K_n)$; here $p_e$ is the vector such that $p_e(e) = n-1$ and $p_e(e') = 0$ for every $e' in E without {e}$.
-To show that $"conv_hull"("ST"; K_n)$ is full dimensional within the plane $sum_(e in E) x_e = n-1$ we need to exhibit $m$ affinely independent points of $"conv_hull"("ST"; K_n)$. The natural thing to do is to search among the characteristic vectors of spanning trees. Let $H$ be any Hamiltonian cycle of $K_n$. For the first $n$ points choose any of the $n$ edges of $H$ and consider the spanning tree obtained from $H$ by removing that edge. For the remaining $m-n$ points consider any edge $e in E without H$ and choose a spanning tree of $H union {e}$. It is easy to check that these $n + (m-n) = n$ spanning trees are affinely independent.  
+To show that $"conv_hull"("ST"; K_n)$ is full dimensional within the plane $sum_(e in E) x_e = n-1$ we need to exhibit $m$ affinely independent points of $"conv_hull"("ST"; K_n)$. The natural thing to do is to search among the characteristic vectors of spanning trees. Let $H$ be any Hamiltonian cycle of $K_n$. For the first $n$ points choose any of the $n$ edges of $H$ and consider the spanning tree obtained from $H$ by removing that edge. For the remaining $m-n$ points consider any edge $e in E without H$ and choose a spanning tree $T_e$ of $H union {e}$ with $e in T_e$. It is easy to check that these $n + (m-n) = m$ spanning trees are affinely independent.
 
 The natural challenge at this point is to identify families of constraints that offer a complete description of $"conv_hull"("ST"; K_n)$ for a generic $n in NN$. Not only to get hold on a complete set of them, but also to make some sense of them via some appealing combinatorial interpretation.
 For example, inspired by the Cut Lemma one could argue that every spanning tree should intersect every cut, hence write the following general family of valid constraints:
@@ -289,7 +289,7 @@ The following simple observation shows that the integrality of $"LP"("ST"; G)$ i
 
 *Observation:* Every integral point in $"LP"("ST"; G)$ is the characteristic vector of a spanning tree of $G$.
 *proof:*
-For every $e in E$, $x_e >= 0$ by the non-negativity consstraints, and $x_e <= 0$ by the constraint $x(<S>) <= |S|-1$ where $S$ is the set comprising the two endnodes of $e$.
+For every $e in E$, $x_e >= 0$ by the non-negativity constraints, and $x_e <= 1$ by the constraint $x(<S>) <= |S|-1$ where $S$ is the set comprising the two endnodes of $e$.
 Hence $x$ is a $0,1$-vector and can be regarded as the characteristic vector of some subset $F$ of $E$. Note that $F$ is a forest since, if $F$ contained a cycle $C$, then $x$ would violate the constraint $x(<V(C)>) <= |V(C)|-1$. Also, $|F| = n-1$ since $x(E) = n-1$. Hence $F$ is a spanning tree.
 QED
 
