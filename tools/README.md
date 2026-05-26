@@ -42,11 +42,12 @@ Our guide here is complemented by a [Playlist of videos on YouTube](https://www.
 ## How to get a Bash Shell
 
 If you are on Linux or Mac, then you already have a shell. Just open a terminal (and get the basics on how to use it!)
+
 If you are on Windows, then we suggest you to install the Git Bash shell.
 
 
 <details>
-<summary>get the Git Bash shell</summary>
+<summary>get the Git Bash shell for Windows</summary>
 
 Git Bash and clear and detailed instruction on how to install and start using it can be obtained at this [LINK](https://git-scm.com/install/).
 
