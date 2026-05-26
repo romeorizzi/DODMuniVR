@@ -43,16 +43,10 @@ Our guide here is complemented by a [Playlist of videos on YouTube](https://www.
 
 If you are on Linux or Mac, then you already have a shell. Just open a terminal (and get the basics on how to use it!)
 
-
-<details>
-<summary>However, if you use Windows, expand here</summary>
-
 If you use Windows, we suggest you to install the Git Bash shell.
-The software and detailed instruction to get started with Git Bash click on this [LINK](https://git-scm.com/install/).
+This software and detailed instructions to get started with the Bash shell, click on this [LINK](https://git-scm.com/install/).
 
-[This is a video](https://www.youtube.com/watch?v=hrinoukULzE) on how to install Git Bash shell on Windows.
-
-</details>
+[Here is a video](https://www.youtube.com/watch?v=hrinoukULzE) on how to install Git Bash shell on Windows.
 
 
 <a id="get_rtal"></a>
