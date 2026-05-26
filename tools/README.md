@@ -24,6 +24,7 @@ In conclusion, you need to install on your machine and learn how to use our clie
 
 Install now and start using `rtal` right away. You will need it for the exercises, homework, and lab calls of the course.
 
+  - [First: get a Bash Shell](#get_shell)
   - [How to get the `rtal` client](#get_rtal)
   - [Verify that `rtal` is correctly installed and check its version](#check_rtal)
   - [The internal help (`rtal help`)](#rtal-help)
@@ -34,11 +35,31 @@ Install now and start using `rtal` right away. You will need it for the exercise
   - [Get explanations on a service and the use of its optional arguments (the `synopsis` univeral service)](#synopsis-universal-service)
   - [Submit your solution or avail of other services offered for a problem (`rtal connect`)](#rtal-connect)
 
+Our guide here is complemented by a [Playlist of videos on YouTube](https://www.youtube.com/playlist?list=PLZ6q66pQKGuKzoqBzEqSFMq0_dY_sApLm) covering the the variuos things you need to do. 
+
+
+<a id="get_shell"></a>
+## How to get a Bash Shell
+
+If you are on Linux or Mac, then you already have a shell. Just open a terminal (and get the basics on how to use it!)
+If you are on Windows, then we suggest you to install the Git Bash shell.
+
+
+<details>
+<summary>get the Git Bash shell</summary>
+
+Git Bash and clear and detailed instruction on how to install and start using it can be obtained at this [LINK](https://git-scm.com/install/).
+
+[Direct link to our video on the installation process](https://www.youtube.com/watch?v=hrinoukULzE)
+
+</details>
+
+
 <a id="get_rtal"></a>
 ## How to get the `rtal` client
 
 <details>
-<summary>scaricare binario già compilato</summary>
+<summary>download the binary</summary>
 
 <a href="https://github.com/Guilucand/rtal-algo-client/releases">Download the release of the `rtal` binary</a> as suitable for your PC (knowing the Operating System and the broad processor architecture is enough). Decompress it (with `tar xvf` if from command line, else you can use `7-Zip` if your Operating System is Windows)
 </details>
