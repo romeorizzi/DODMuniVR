@@ -1,4 +1,3 @@
-# Prova
 #  ⚙ Work tools, the TALight platform
 
 The course offers a body of theoretical tools but also a set of practical competences. These are not only assessed but also trained and fostered through a set of didactical  problems that the students are asked to solve during the course (proposed as homework or project). Some of these problems will ask you to design an algorithm and others will ask you to just model the problem in terms of either LP (Linear Programming) or ILP (Integer Linear Programming).
@@ -100,8 +99,44 @@ For more information on the options available for compilation go to the [repo pa
 </details>
 
 We recommend that you add the path to the folder where the `rtal` executable is located to your `PATH` environment variable so that you can easily run the `rtal` command no matter where you are.
- 
 
+<details>
+<summary>Click here to set the <b>rtal</b> command on Bash Shell as a global environment variable</summary>
+
+The following commands, divided in subsequent steps, have to be run on the Bash Shell, then we recommend to miss none of the next points:
+
+1. Open Git Bash Shell and run this command:
+     ```bash
+     mkdir ~/.bin
+     ```
+2. Then we easily copy the rtal file we downloaded before inside ~/.bin:
+   For instance we suppose to have our rtal binary file inside ~/Downloads,
+   thus we move there and decompress the downloaded file :
+     ```bash
+     cd ~/Downloads 
+     tar xf rtal-x86_64-pc-windows-msvc.tar.gz
+     ```    
+4. After, we copy the rtal file:
+    ```bash
+     cp rtal-x86_64-pc-windows-msvc/rtal ~/.bin
+     ``` 
+5. Now, we run all these commands together:  
+    ```bash
+     cd ~/.bin
+     set -o noclobber
+     echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
+     ``` 
+    We conclude with running:
+      ```bash
+     rtal --version
+     ```  
+    If the previews commands have been run correctly, we see the following result:  
+      ```bash
+     rtal 0.2.0
+     ```  
+</details>  
+
+  
 <a id="check_rtal"></a>
 ## Verify that `rtal` is installed correctly and check its version
 
