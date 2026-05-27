@@ -106,35 +106,61 @@ We recommend that you add the path to the folder where the `rtal` executable is 
 The following commands, divided in subsequent steps, have to be run on the Bash Shell, then we recommend to miss none of the next points:
 
 1. Open Git Bash Shell and run this command:
-     ```bash
-     mkdir ~/.bin
-     ```
+   ```bash
+   mkdir ~/.bin
+   ```
+
 2. Then we easily copy the rtal file we downloaded before inside ~/.bin:
    For instance we suppose to have our rtal binary file inside ~/Downloads,
-   thus we move there and decompress the downloaded file :
-     ```bash
-     cd ~/Downloads 
-     tar xf rtal-x86_64-pc-windows-msvc.tar.gz
-     ```    
-4. After, we copy the rtal file:
-    ```bash
-     cp rtal-x86_64-pc-windows-msvc/rtal ~/.bin
-     ``` 
-5. Now, we run all these commands together:  
-    ```bash
-     cd ~/.bin
-     set -o noclobber
-     echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
-     ``` 
-    We conclude with running:
+   thus we move there and decompress the downloaded file:
+   ```bash
+   cd ~/Downloads 
+   tar xf rtal-x86_64-pc-windows-msvc.tar.gz
+   ```    
+
+3. After, we copy the rtal file:
+   ```bash
+   cp rtal-x86_64-pc-windows-msvc/rtal ~/.bin
+   ``` 
+
+4. Now, we run all these commands together:  
+   ```bash
+   cd ~/.bin
+   set -o noclobber
+   echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
+   ``` 
+
+   We conclude with running:
+   ```bash
+   rtal --version
+   ```  
+
+   If the previous commands have been run correctly, we see the following result:  
+   ```bash
+   rtal 0.2.0
+   ```
+
+   <details> 
+   <summary>[Optional] How to remove <b>rtal</b> as a global environmental variable</summary>
+
+   1. Open the file `~/.bashrc`:  
       ```bash
-     rtal --version
-     ```  
-    If the previews commands have been run correctly, we see the following result:  
+      nano ~/.bashrc
+      ```
+
+   2. Delete the relative line of:
       ```bash
-     rtal 0.2.0
-     ```  
-</details>  
+      export PATH=$PATH:~/.bin
+      ``` 
+
+   3. To save and quit the file editing mode, just press on:
+      * <b>Ctrl + O</b> to save our edit,
+      * <b>Ctrl + X</b> to exit from the editing.
+
+   </details>
+
+</details>
+
 
   
 <a id="check_rtal"></a>
