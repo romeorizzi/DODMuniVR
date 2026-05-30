@@ -24,18 +24,54 @@ In conclusion, you need to install on your machine and learn how to use our clie
 
 Install now and start using `rtal` right away. You will need it for the exercises, homework, and lab calls of the course.
 
-  - [First: get a Bash Shell](#get_shell)
-  - [How to get the `rtal` client](#get_rtal)
-  - [Verify that `rtal` is correctly installed and check its version](#check_rtal)
-  - [The internal help (`rtal help`)](#rtal-help)
-  - [Authentication and login (`rtal login`)](#rtal-login)
-  - [See the list of problems currently in the collection (`rtal-list`)](#rtal-list)
-  - [Download the text and the other public materials of a problem (`rtal get`)](#rtal-get)
-  - [Get the complete lists of the services for a problem and the respective arguments (`rtal-list -v <problem name>`)](#rtal-list-v_problem_name)
-  - [Get explanations on a service and the use of its optional arguments (the `synopsis` univeral service)](#synopsis-universal-service)
-  - [Submit your solution or avail of other services offered for a problem (`rtal connect`)](#rtal-connect)
+- [⚙ Work tools, the TALight platform](#-work-tools-the-talight-platform)
+  - [⚙ Our TALight platform and the `rtal` client](#-our-talight-platform-and-the-rtal-client)
+- [⚙ 💻 Installation and Usage Guide for `rtal`](#--installation-and-usage-guide-for-rtal)
+  - [How to get a Bash Shell](#how-to-get-a-bash-shell)
+  - [How to get the `rtal` client](#how-to-get-the-rtal-client)
+  - [Verify that `rtal` is installed correctly and check its version](#verify-that-rtal-is-installed-correctly-and-check-its-version)
+  - [The internal help (`rtal help`)](#the-internal-help-rtal-help)
+  - [Authentication and login (`rtal login`)](#authentication-and-login-rtal-login)
+  - [See the list of problems currently in the collection (`rtal list`)](#see-the-list-of-problems-currently-in-the-collection-rtal-list)
+  - [Download the text and the other public materials of a problem (`rtal get`)](#download-the-text-and-the-other-public-materials-of-a-problem-rtal-get)
+  - [To view the active services for a problem](#to-view-the-active-services-for-a-problem)
+  - [Get explanations on a service and the use of its optional arguments](#get-explanations-on-a-service-and-the-use-of-its-optional-arguments)
+  - [Submit your solution or avail of other services offered for a problem (`rtal connect`)](#submit-your-solution-or-avail-of-other-services-offered-for-a-problem-rtal-connect)
 
-Our guide here is complemented by a [Playlist of videos on YouTube](https://www.youtube.com/playlist?list=PLZ6q66pQKGuKzoqBzEqSFMq0_dY_sApLm) covering the the variuos things you need to do. 
+Our guide here is complemented by a [Playlist of videos on YouTube](https://www.youtube.com/playlist?list=PLZ6q66pQKGuKzoqBzEqSFMq0_dY_sApLm) covering variuos of the things you need to do.
+
+</details>
+We also provide a youtube playlist of videos to help you get up and running with `rtal`.  
+These cover various of the things you need to do, see what materials helps you best.
+
+<details>
+  <summary>Click here for an overview and direct access to the full list of video tutorials</summary>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=KlvOSZPiFW0">1. How to get the rtal binary</a></li>
+    </ul>
+    <ul>
+      <li><a href="">2. How to use the help option</a></li>
+    </ul>
+    <ul>
+      <li><a href="">3. How to get an exercise to solve</a></li>
+    </ul>
+    <ul>
+      <li><a href="">4. How to log in</a></li>
+    </ul>
+    <ul>
+      <li><a href="">5. How to test your solution 'locally'</a></li>
+    </ul>
+    <ul>
+      <li><a href="">6. How to submit your solution online</a></li>
+    </ul>
+    <ul>
+      <li><a href="">7. How to check your scoreboar</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">8. Here a practical introduction to stdin, stdout and stder.</a></li>
+    </ul>
+</details>
+
 
 
 <a id="get_shell"></a>
@@ -98,8 +134,46 @@ The executable (`rtal`) will appear in the `/target/debug/` subfolder.
 For more information on the options available for compilation go to the [repo page](https://github.com/Guilucand/rtal-algo-client).
 </details>
 
-We recommend that you add the path to the folder where the `rtal` executable is located to your `PATH` environment variable so that you can easily run the `rtal` command no matter where you are.
- 
+To run the `rtal` command from any folder, add `rtal` to the `PATH` environment variable as follows.
+<details>
+<summary>How to add the `rtal` executable location to your `PATH` environment variable</summary>
+
+To make `rtal` directly accessible from any directory on your machine, you need to place it in a folder included in your system's `PATH` environment variable. The following steps walk you through this process on Git Bash.
+
+1. First, if you do not already have it, create a new folder where to place those binaries that you want to make accessible from everywhere:
+   ```bash
+   mkdir ~/.bin
+   ```
+
+2. Now, navigate to where you downloaded rtal and decompress the archive. For example, if it landed in your ~/Downloads folder:
+   ```bash
+   cd ~/Downloads 
+   tar xf rtal-x86_64-pc-windows-msvc.tar.gz
+   ```    
+
+3. Next, copy the rtal file:
+   ```bash
+   cp rtal-x86_64-pc-windows-msvc/rtal ~/.bin
+   ``` 
+
+4. Finally, add the folder created in step&nbsp;1 to your `PATH` environment variable so that your shell will search also there for executables:  
+   ```bash
+   cd ~/.bin
+   set -o noclobber
+   echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
+   ``` 
+
+   To verify everything went well, just run:
+   ```bash
+   rtal --version
+   ```  
+
+   If all the above steps were carried out correctly, you should see something like:
+   ```bash
+   rtal 0.2.0
+   ```
+
+
 
 <a id="check_rtal"></a>
 ## Verify that `rtal` is installed correctly and check its version
