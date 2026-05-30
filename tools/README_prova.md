@@ -48,27 +48,18 @@ These cover various of the things you need to do, see what materials helps you b
   <summary>Click here for an overview and direct access to the full list of video tutorials</summary>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=KlvOSZPiFW0">1. How to get the rtal binary</a></li>
-    </ul>
-    <ul>
       <li><a href="">2. How to use the help option</a></li>
-    </ul>
-    <ul>
       <li><a href="">3. How to get an exercise to solve</a></li>
-    </ul>
-    <ul>
       <li><a href="">4. How to log in</a></li>
-    </ul>
-    <ul>
       <li><a href="">5. How to test your solution 'locally'</a></li>
-    </ul>
-    <ul>
       <li><a href="">6. How to submit your solution online</a></li>
-    </ul>
-    <ul>
       <li><a href="">7. How to check your scoreboar</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">8. Here a practical introduction to stdin, stdout and stder.</a></li>
+      <li>Two external videos with useful general instructions on how to operate in a shell
+         <ul>
+            <li><a href="https://www.youtube.com/watch?v=hrinoukULzE">A video on how to install Git Bash shell on Windows</a></li>
+            <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">A practical introduction to stdin, stdout and stder</a></li>
+          </ul>
+      </li>
     </ul>
 </details>
 
@@ -82,7 +73,10 @@ If you are on Linux or Mac, then you already have a shell. Just open a terminal 
 If you use Windows, we suggest you to install the Git Bash shell.
 This software and detailed instructions to get started with the Bash shell, click on this [LINK](https://git-scm.com/install/).
 
-[Here is a video](https://www.youtube.com/watch?v=hrinoukULzE) on how to install Git Bash shell on Windows.
+Also helpful these videos:
+* [how to install Git Bash shell on Windows](https://www.youtube.com/watch?v=hrinoukULzE)
+* [a practical introduction to stdin, stdout and stder](https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr)
+
 
 
 <a id="get_rtal"></a>
@@ -172,7 +166,7 @@ To make `rtal` directly accessible from any directory on your machine, you need 
    ```bash
    rtal 0.2.0
    ```
-
+</details>
 
 
 <a id="check_rtal"></a>
