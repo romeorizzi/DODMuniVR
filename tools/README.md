@@ -55,8 +55,10 @@ These cover various of the things you need to do, see what materials helps you b
       <li><a href="">6. How to submit your solution online</a></li>
       <li><a href="">7. How to check your scoreboar</a></li>
       <li>Two external videos with useful general instructions on how to operate in a shell
-         <li><a href="https://www.youtube.com/watch?v=hrinoukULzE">A video on how to install Git Bash shell on Windows</a></li>
-         <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">A practical introduction to stdin, stdout and stder</a></li>
+         <ul>
+            <li><a href="https://www.youtube.com/watch?v=hrinoukULzE">A video on how to install Git Bash shell on Windows</a></li>
+            <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">A practical introduction to stdin, stdout and stder</a></li>
+          </ul>
       </li>
     </ul>
 </details>
