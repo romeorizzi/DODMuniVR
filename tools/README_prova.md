@@ -1,4 +1,3 @@
-# Prova
 #  ⚙ Work tools, the TALight platform
 
 The course offers a body of theoretical tools but also a set of practical competences. These are not only assessed but also trained and fostered through a set of didactical  problems that the students are asked to solve during the course (proposed as homework or project). Some of these problems will ask you to design an algorithm and others will ask you to just model the problem in terms of either LP (Linear Programming) or ILP (Integer Linear Programming).
@@ -100,7 +99,98 @@ For more information on the options available for compilation go to the [repo pa
 </details>
 
 We recommend that you add the path to the folder where the `rtal` executable is located to your `PATH` environment variable so that you can easily run the `rtal` command no matter where you are.
- 
+
+<details>
+<summary>Click here to set the <b>rtal</b> command on Bash Shell as a global environment variable</summary>
+
+To make `rtal` available from any directory on your machine, you need to place it in a folder that is part of your system's PATH. The following steps walk you through this process on Git Bash. Make sure to follow each one in order.
+
+1. First, create a dedicated folder where we will store the `rtal` binary::
+   ```bash
+   mkdir ~/.bin
+   ```
+
+2. Now, navigate to where you downloaded rtal and decompress the archive. For example, if it landed in your ~/Downloads folder:
+   ```bash
+   cd ~/Downloads 
+   tar xf rtal-x86_64-pc-windows-msvc.tar.gz
+   ```    
+
+3. After, we copy the rtal file:
+   ```bash
+   cp rtal-x86_64-pc-windows-msvc/rtal ~/.bin
+   ``` 
+
+4. Finally, add that folder to your PATH so that your shell can find rtal every time you open a terminal:  
+   ```bash
+   cd ~/.bin
+   set -o noclobber
+   echo 'export PATH=$PATH:~/.bin' >> ~/.bashrc
+   ``` 
+
+   To verify everything went well, run:
+   ```bash
+   rtal --version
+   ```  
+
+   If all the above steps were carried out correctly, you should see something like:
+   ```bash
+   rtal 0.2.0
+   ```
+
+   <details> 
+   <summary>[Optional] How to remove <b>rtal</b> as a global environmental variable</summary>
+
+   1. Open the file `~/.bashrc` in a text editor:  
+      ```bash
+      nano ~/.bashrc
+      ```
+
+   2. Find and delete the line:
+      ```bash
+      export PATH=$PATH:~/.bin
+      ``` 
+
+   3. Save and exit:
+      * <b>Ctrl + O</b> to save your changes,
+      * <b>Ctrl + X</b> to exit the editing.
+
+   </details>
+
+</details>
+
+
+We also provide a youtube playlist of videos to help you get up and running with `rtal`.  
+These cover the various things you need to do, step by step::
+
+<details>
+  <summary>Click here to see the full list of video tutorials</summary>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=KlvOSZPiFW0">1. How to get the rtal binary</a></li>
+    </ul>
+    <ul>
+      <li><a href="">2. How to use the help option</a></li>
+    </ul>
+    <ul>
+      <li><a href="">3. How to get an exercise to solve</a></li>
+    </ul>
+    <ul>
+      <li><a href="">4. How to log in</a></li>
+    </ul>
+    <ul>
+      <li><a href="">5. How to test your solution 'locally'</a></li>
+    </ul>
+    <ul>
+      <li><a href="">6. How to submit your solution online</a></li>
+    </ul>
+    <ul>
+      <li><a href="">7. How to check your scoreboar</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">8. [Optional] stdin, stdout and stder explanation.</a></li>
+    </ul>
+</details>
+
 
 <a id="check_rtal"></a>
 ## Verify that `rtal` is installed correctly and check its version
