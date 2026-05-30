@@ -48,30 +48,16 @@ These cover various of the things you need to do, see what materials helps you b
   <summary>Click here for an overview and direct access to the full list of video tutorials</summary>
     <ul>
       <li><a href="https://www.youtube.com/watch?v=KlvOSZPiFW0">1. How to get the rtal binary</a></li>
-    </ul>
-    <ul>
       <li><a href="">2. How to use the help option</a></li>
-    </ul>
-    <ul>
       <li><a href="">3. How to get an exercise to solve</a></li>
-    </ul>
-    <ul>
       <li><a href="">4. How to log in</a></li>
-    </ul>
-    <ul>
       <li><a href="">5. How to test your solution 'locally'</a></li>
-    </ul>
-    <ul>
       <li><a href="">6. How to submit your solution online</a></li>
-    </ul>
-    <ul>
       <li><a href="">7. How to check your scoreboar</a></li>
-    </ul>
-    <ul>Two external videos with useful general instructions on how to operate in a shell
-      <ul>
-         <li><a href="https://www.youtube.com/watch?v=hrinoukULzE">A video on how to install Git Bash shell on Windows.
-         <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">A practical introduction to stdin, stdout and stder.</a></li>
-      </ul>
+      <li>Two external videos with useful general instructions on how to operate in a shell
+         <li><a href="https://www.youtube.com/watch?v=hrinoukULzE">A video on how to install Git Bash shell on Windows</a></li>
+         <li><a href="https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr">A practical introduction to stdin, stdout and stder</a></li>
+      </li>
     </ul>
 </details>
 
