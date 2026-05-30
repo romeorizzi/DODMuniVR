@@ -73,7 +73,10 @@ If you are on Linux or Mac, then you already have a shell. Just open a terminal 
 If you use Windows, we suggest you to install the Git Bash shell.
 This software and detailed instructions to get started with the Bash shell, click on this [LINK](https://git-scm.com/install/).
 
-[Here is a video](https://www.youtube.com/watch?v=hrinoukULzE) on how to install Git Bash shell on Windows.
+Also helpful these videos:
+* [how to install Git Bash shell on Windows](https://www.youtube.com/watch?v=hrinoukULzE)
+* [a practical introduction to stdin, stdout and stder](https://youtu.be/zMKacHGuIHI?si=bkK8vb2XP99pOMrr)
+
 
 
 <a id="get_rtal"></a>
