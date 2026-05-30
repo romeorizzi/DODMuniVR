@@ -103,7 +103,7 @@ We recommend that you add the path to the folder where the `rtal` executable is 
 <details>
 <summary>Click here to set the <b>rtal</b> command on Bash Shell as a global environment variable</summary>
 
-To make `rtal` available from any directory on your machine, you need to place it in a folder that is part of your system's PATH. The following steps walk you through this process on Git Bash. Make sure to follow each one in order.
+To make `rtal` directly accessible from any directory on your machine, you need to place it in a folder that is part of your system's PATH. The following steps walk you through this process on Git Bash. Make sure to follow each one in order.
 
 1. First, create a dedicated folder where we will store the `rtal` binary::
    ```bash
