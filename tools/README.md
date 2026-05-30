@@ -166,7 +166,7 @@ To make `rtal` directly accessible from any directory on your machine, you need 
    ```bash
    rtal 0.2.0
    ```
-
+</details>
 
 
 <a id="check_rtal"></a>
