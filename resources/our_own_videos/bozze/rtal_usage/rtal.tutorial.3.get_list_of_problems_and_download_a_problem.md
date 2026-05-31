@@ -38,7 +38,7 @@ Si  mostra come
       ```
   3. Per istanza, si scarica il problema *sudoku*, compilando la linea di comando seguente:
       ```bash
-      $ rtal -s wss://ta.di.univr.it/dodm get sudoku
+      $ rtal -s wss://ta.di.univr.it/dodm get conio1
       ```
       * Verifica che nella cartella corrente sia stato scaricato il file, compilando:
         ```bash
@@ -46,17 +46,19 @@ Si  mostra come
         ```
         Il risultato atteso è:
         ```bash
-        sudoku.tar
+        conio1.tar
         ```
   4. Si decomprime il file del problema scaricato e si viualizza il contenuto:
         ```bash
-        tar xf sudoku.tar
-        cd sudoku
+        tar xf conio1.tar
+        cd conio1
         ls
         ```
         *  Si verifica che il risultato della linea di codice precedente è:
         ```bash
-        README_rtal.md  README_synopsis.md  example.in.txt  example.out.txt  meta.yaml  testo_en.pdf  testo_it.pdf
+        README_rtal.md       conio1_template_gurobi.py*  meta.yaml
+        README_synopsis.md   example.in.txt              testo_en.pdf
+        conio1_template.py*  example.out.txt             testo_it.pdf
         ```
         Questa lista di file rappresenta il materiale che serve a svolgere e verificare localmente il problema scaricato.
         
