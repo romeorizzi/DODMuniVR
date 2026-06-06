@@ -3,7 +3,7 @@ Spiegare step-by-step come installare l'eseguibile rtal.
 
 # Lista Dettaglio 
 1. Per svolgere l'installazione, installare la Bash Shell se non presente,
-2. Aprire Git Bash,
+2. Aprire Bash Shell (vai sullo start, cerca Git Bash e premi invio),
 3. Appena si apre, far notare che si è posizionati nella home, segnata con il simbolo $\sim$ nell'intestazione di comando,
 4. Cambiare directory posizionandoci su una cartella di riferimento.  
   Per istanza,
