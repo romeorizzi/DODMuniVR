@@ -32,32 +32,32 @@ Per scaricare un problema della lista posizionati nella cartella scelta come car
       ```bash
       $ cd ~/Desktop/DODM/rtal
       ```
-  e poi, se a titolo di esempio vuoi scaricare il problema *conio1*, immetti il comando:
+e poi, se a titolo di esempio vuoi scaricare il problema *conio1*, immetti il comando:
       ```bash
       $ rtal -s wss://ta.di.univr.it/dodm get conio1
       ```
-  Puoi verificare che nella cartella corrente sia stato scaricato il file di archivio con:
+Puoi verificare che nella cartella corrente sia stato scaricato il file di archivio con:
         ```bash
         $ ls
         ```
-        Il risultato atteso è:
+Il risultato atteso è:
         ```bash
         conio1.tar
         ```
-  Decomprimi/espandi l'archivio con:
+Decomprimi/espandi l'archivio con:
         ```bash
         tar xf conio1.tar
         ```
-  Visualizzane il contenuto con:
+Visualizzane il contenuto con:
         ```bash
         cd conio1
         ls
         ```
-  L'output sulla shell al comando precedente comando dovrebbe essere qualcosa di simile a:
+L'output sulla shell al comando precedente comando dovrebbe essere qualcosa di simile a:
         ```bash
         README_rtal.md       conio1_template_gurobi.py*  meta.yaml
         README_synopsis.md   example.in.txt              testo_en.pdf
         conio1_template.py*  example.out.txt             testo_it.pdf
         ```
-        Questa lista di file rappresenta il materiale che serve a svolgere e verificare localmente il problema scaricato.
+Questa lista di file rappresenta il materiale che serve a svolgere e verificare localmente il problema scaricato.
         
