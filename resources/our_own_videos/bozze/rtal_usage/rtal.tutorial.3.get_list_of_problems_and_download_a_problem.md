@@ -36,7 +36,7 @@ e poi, se a titolo di esempio vuoi scaricare il problema *conio1*, immetti il co
   ```bash
       $ rtal -s wss://ta.di.univr.it/dodm get conio1
   ```
-Verifica che il file `conio1.tar` appaia ora nella lista dei file presenti nel folder corrente; lista che puoi ottenere immettendo:
+Verifica che il file `conio1.tar` appaia ora nella lista dei file presenti nel folder corrente; lista che puoi ottenere col comando:
   ```bash
         ls
   ```
@@ -55,5 +55,5 @@ L'output sulla shell al comando precedente comando dovrebbe essere qualcosa di s
         README_synopsis.md   example.in.txt              testo_en.pdf
         conio1_template.py*  example.out.txt             testo_it.pdf
   ```
-Questa lista di file rappresenta il materiale che serve a svolgere e verificare localmente il problema scaricato.
+Questi file sono tutto il materiale che ti serve per poter svolgere e verificare localmente il problema scaricato.
         
