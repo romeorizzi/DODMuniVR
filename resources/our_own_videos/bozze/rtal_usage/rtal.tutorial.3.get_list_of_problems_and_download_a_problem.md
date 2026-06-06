@@ -1,12 +1,11 @@
-# Obiettivo
-Mostrare come
+# Mostreremo come
 * visualizzare la lista dei problemi di una collection col comando `list`,
 * scaricarsi i materiali pubblici di un problema.
 
-# Lista Dettaglio
-La sintassi sarebbe:
+# Dettaglio
+Una sintassi base del comando `list` sarebbe:
   ```bash
-  $ rtal -s <URL-collection-problemi>
+  $ rtal -s <URL-collection-problemi> list
   ```
 Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.univr.it/dodm` che va quindi specificato come argomento server (`-s`):
   ```bash
