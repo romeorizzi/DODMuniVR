@@ -1,8 +1,8 @@
 # Obiettivi
-Mostrare come il comando help può tornare utile nella comprensione e nella compilazione di `rtal`.
+Proporre l'uso del (sotto-)comando help per conoscere la sintassi ed argomenti dei sotto-comandi del comando `rtal`.
 
 # Lista di Dettaglio
-1. Una volta installato `rtal`, compiliamo la linea di comando:
+1. Una volta installato `rtal`, puoi eseguire la linea di comando:
    ```bash
    $ rtal --help
    ```
@@ -26,7 +26,7 @@ Mostrare come il comando help può tornare utile nella comprensione e nella comp
           login
           logout
      ```
- 2. Dato che l'ordine di scrittura è `rtal [OPTIONS] <SUBCOMMAND>` si compila, per istanza, la linea di comando:
+ 2. Dalla scrittura `rtal [OPTIONS] <SUBCOMMAND>` scopriamo che il corretto ordine nell'invocazione di un (sotto-)comando è quello esemplificato ora, per ottenere aiuto sul comando list:
     ```bash
     $ rtal help list
     ```
@@ -45,5 +45,8 @@ Mostrare come il comando help può tornare utile nella comprensione e nella comp
           -h, --help       Print help information
           -v, --verbose    List services and parameters, add more than one to list more information
       ```
+Si consiglia di sperimentare col comando help per superare ogni timidezza. Si dimostra particolarmente utile nell'esplorazione del comando `connect` che presenta un più ricco set di argomenti ed opzioni.
+
+      
     
   
