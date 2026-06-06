@@ -1,7 +1,7 @@
 #  Mostreremo come
 installare l'eseguibile rtal (guida passo-passo)
 
-# Lista Dettaglio 
+# Dettaglio 
 1. Se sei su Windows e sei sprovvisto di Bash Shell devi installartela. Per farlo, si seguano le istruzioni della guida [How to Install Git Bash on Windows 2026](https://www.youtube.com/watch?v=hrinoukULzE)
 2. Aprire Bash Shell (vai sullo Start, cerca Git Bash ed **eseguila come Amministratore**)
 3. Portarsi dalla cartella corrente (di solito Git Bash prende avvio dalla home, indicata col simbolo $\sim$) alla cartella dove si vuole operare.  
