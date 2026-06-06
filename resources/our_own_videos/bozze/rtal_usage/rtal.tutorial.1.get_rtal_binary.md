@@ -1,5 +1,5 @@
 #  Mostreremo come
-installare l'eseguibile rtal.
+installare l'eseguibile rtal (guida passo-passo)
 
 # Lista Dettaglio 
 1. Per svolgere l'installazione, installare la Bash Shell se non presente,
