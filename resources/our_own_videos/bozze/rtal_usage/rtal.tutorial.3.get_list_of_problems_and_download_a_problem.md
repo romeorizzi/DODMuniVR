@@ -27,6 +27,7 @@ Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.
     - triangolo
     ```
     _Nota:_ la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
+    
 Per scaricare un problema della lista posizionati nella cartella scelta come cartella padre per i folder dei vari problemi affrontati:
       ```bash
       $ cd ~/Desktop/DODM/rtal
