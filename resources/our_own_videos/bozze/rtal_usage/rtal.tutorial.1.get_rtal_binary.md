@@ -9,7 +9,6 @@ installare l'eseguibile rtal (guida passo-passo)
    ```bash
          $ cd ~/Desktop
    ```
-       ```   
     * suggeriamo di crearsi quì la cartella `DODM` e la sotto-cartella `DODM/rtal` con
        ```bash
          $ mkdir -p DODM/rtal
