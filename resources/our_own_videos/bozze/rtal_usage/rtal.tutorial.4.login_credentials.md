@@ -1,9 +1,9 @@
-# Mostreremo
-Come autenticarsi al server con le proprie credenziali accademiche.
+# Mostreremo come
+autenticarsi al server con le proprie credenziali accademiche.
 L'autenticazione è richiesta per quelle collection di problemi dove il server produce punteggi spendibili nella valutazione del profitto finale nel corso.
 
-# Lista Dettaglio  
-1. Inserire la seguente linea di comando:
+# Dettaglio  
+1. Per autenticarti, immetti il seguente comando:
    ```bash
    $ rtal -s wss://ta.di.univr.it/dodm login
    ```
