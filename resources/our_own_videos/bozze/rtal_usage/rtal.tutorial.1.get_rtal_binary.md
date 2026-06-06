@@ -36,11 +36,11 @@ Spiegare step-by-step come installare l'eseguibile rtal.
      rtal-x86_64-pc-windows-msvc.tar.gz
      rtal*
      ```
-9. Per ultimo check, compiliamo la seguente linea di comando:
+9. Si lanci la seguente linea di comando:
    ```bash
    $ ./rtal --version
    ```
-   * Il risultato atteso è verificato se l'output è il seguente:
+   * Tutto ok se l'output è come da seguente risultato atteso:
      ```bash
      rtal.0.2.0
      ```
