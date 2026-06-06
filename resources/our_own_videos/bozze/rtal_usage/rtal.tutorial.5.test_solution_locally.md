@@ -4,22 +4,22 @@ Per istanza, il problema è conio1.
 
 # Lista Dettaglio  
 1. Per istanza, con la Bash Shell, 
-  ci si sposta nella cartella dove abb scaricato e decompresso l'archivio *conio1* contenente i dati per risolvere il problema nella seguente directory: 
+  ci si sposta nella cartella dove abbiamo scaricato e decompresso l'archivio *conio1* contenente i dati per risolvere il problema nella seguente directory: 
   ```bash
   $ cd ~/Desktop/DODM/rtal/conio1
   ```
-2. Il file python che contiene la soluzione si chiama *conio1.py* ed è inserito nella workdirectory seguente:
+2. Il file python che contiene la soluzione si chiama *conio1.py* ed è inserito dall* studente nella work directory seguente:
   ```bash
   ~/Desktop/DODM/rtal/conio1
   ```
-3. Avviamo il seguente comando per compilare *conio1.py*:
+3. Avviamo il seguente comando per eseguire il programma *conio1.py*:
   ```bash
   $ python conio1.py
   ```
-  Il file non restituisce nulla in risposta a questa ultima linea di comando, 
-  perché sta attendendo che vengano inseriti a mano le istanze del problema, ossia i dati che serveno a calcolare le diverse soluzioni richieste in output.
-4. Alla tabella **Imput from 'stdin'**, nella sezione **Esempio di Input/Output** 
-  del file *testo_en.pdf* contenuto in *~/Desktop/tutorial/problemi/conio1* sono presenti i seguenti dati:  
+  A prima occhiata, il file non restituisce nulla in risposta a questa ultima linea di comando, 
+  perché sta attendendo che vengano inseriti a mano le istanze del problema, ossia i dati che serveno a calcolare le diverse soluzioni richieste in output.  
+4. Alla tabella **Input from 'stdin'**, nella sezione **Esempio di Input/Output** 
+  del file *testo_en.pdf* contenuto in *~/Desktop/DODM/rtal/conio1* sono presenti i seguenti dati:  
   ```bash
   4
   98
@@ -27,8 +27,8 @@ Per istanza, il problema è conio1.
   3472
   3456789
   ```
-  Si inseriscono questi numeri in seguenza, premendo Enter tra il numero precedente e quello successivo.
-  In questo modo,, il programma simula le soluzioni passo-passo.  
+  Quindi si inseriscono in interfaccia Bash Shell questi numeri in seguenza, premendo Enter tra il numero precedente e quello successivo.
+  In questo modo, il programma registra gli input e calcola le soluzioni passo-passo.  
   * Il risultato atteso è il seguente $\rightarrow$ tra $\(\)$ i numeri inseriti a scopo didattico:
   ```bash
   (4)
@@ -45,7 +45,8 @@ Per istanza, il problema è conio1.
   3464
   0 2 1 1 1 1 0 1 1 3456
   ```
-5. Per automatizzare questo procedimento si inserisce la seguente riga di comando:
+### Automatizzazione
+1. Per automatizzare questo procedimento si inserisce la seguente riga di comando:
   ```bash
   $ rtal -s wss://ta.di.univr.it/dodm connect -f source=conio.py -a size=esempi_testo conio1 -- python conio1.py
   ```
@@ -63,7 +64,7 @@ Per istanza, il problema è conio1.
   Received "./output/results.yaml"
   Received "./output/results_with_feedback.txt"
   ```
-6. Per visualizzare i risultati i risultati ottenuti dal server, si compila la linea di comando seguente:
+7. Per visualizzare i risultati i risultati ottenuti dal server, si compila la linea di comando seguente:
   ```bash
   $ less ./output/results.txt
   ```
