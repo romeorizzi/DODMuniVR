@@ -26,7 +26,7 @@ avvalersi del sotto-comando `help` di `rtal`. Consigliamo di familiarizzare con 
           login
           logout
      ```
- 2. Dalla scrittura `rtal [OPTIONS] <SUBCOMMAND>` scopriamo che il corretto ordine nell'invocazione di un (sotto-)comando è quello esemplificato ora, per ottenere aiuto sul comando list:
+ 2. Dalla scrittura `rtal [OPTIONS] <SUBCOMMAND>` scopriamo che il corretto ordine nell'invocazione di un (sotto-)comando di `rtal` è quello esemplificato qui sotto, per ottenere aiuto sul comando list:
     ```bash
     $ rtal help list
     ```
