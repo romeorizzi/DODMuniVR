@@ -1,7 +1,7 @@
-# Obiettivi
-Proporre l'uso del (sotto-)comando help per conoscere la sintassi ed argomenti dei sotto-comandi del comando `rtal`.
+# Mostreremo come
+avvalersi del sotto-comando `help` di `rtal`. Consigliamo di familiarizzare con l'uso di `help` per venire a conoscere la sintassi e gli argomenti dei vari sotto-comandi del comando `rtal`.
 
-# Lista di Dettaglio
+# Dettaglio
 1. Una volta installato `rtal`, puoi eseguire la linea di comando:
    ```bash
    $ rtal --help
