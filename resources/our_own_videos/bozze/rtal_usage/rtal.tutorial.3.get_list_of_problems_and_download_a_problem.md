@@ -1,17 +1,18 @@
 # Obiettivo
-Si  mostra come
-* visualizzare la lista dei problemi da risolvere con il comando `list`,
-* scaricare un problema.
+Mostrare come
+* visualizzare la lista dei problemi di una collection col comando `list`,
+* scaricarsi i materiali pubblici di un problema.
 
 # Lista Dettaglio
-1. Per visualizzare la lista dei problemi da risolvere, si compila la seguente linea di comando:  
+La sintassi sarebbe:
+  ```bash
+  $ rtal -s <URL-collection-problemi>
+  ```
+Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.univr.it/dodm` che va quindi specificato come argomento server (`-s`):
   ```bash
   $ rtal -s wss://ta.di.univr.it/dodm list
   ```
-  * Si precisa che la parte della linea di comando `-s wss://ta.di.univr.it/dodm` permette a rtal di:
-    * Collegarsi al server con -s,
-    * accedendo all'indirizzo wss://ta.di.univr.it/dodm.
-  * Il  risultato atteso è:
+  * Il  risultato atteso è una lista di problemi, del tipo:
     ```bash
     - borse
     - conio1
@@ -26,21 +27,17 @@ Si  mostra come
     - sudoku
     - triangolo
     ```
+    _Nota:_ la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
 2. Per scaricare un problema:
-  1. Ci si posiziona nella work directory $\rightarrow$ per istanza è $\sim$*/Desktop/tutorial*
+  1. Posizionati nella directory che si è scelta come cartella padre per le cartelle dei vari problemi affrontati:
       ```bash
-      $ cd ~/Desktop/tutorial
+      $ cd ~/Desktop/DODM/rtal
       ```
-  2. Si crea l'archivio *problemi* e ci si sposta dentro:
-      ```bash
-      $ mkdir problemi
-      $ cd problemi
-      ```
-  3. Per istanza, si scarica il problema *sudoku*, compilando la linea di comando seguente:
+  2. A titolo di esempio, per scaricare il problema *conio1*, il comando è il seguente:
       ```bash
       $ rtal -s wss://ta.di.univr.it/dodm get conio1
       ```
-      * Verifica che nella cartella corrente sia stato scaricato il file, compilando:
+      * Verifica che nella cartella corrente sia stato scaricato il file di archivio:
         ```bash
         $ ls
         ```
@@ -48,13 +45,13 @@ Si  mostra come
         ```bash
         conio1.tar
         ```
-  4. Si decomprime il file del problema scaricato e si viualizza il contenuto:
+  4. Decomprimi/espandi l'archivio del problema scaricato e visualizza il contenuto:
         ```bash
         tar xf conio1.tar
         cd conio1
         ls
         ```
-        *  Si verifica che il risultato della linea di codice precedente è:
+        *  Verifica che il risultato della linea di comando precedente sia qualcosa di simile a:
         ```bash
         README_rtal.md       conio1_template_gurobi.py*  meta.yaml
         README_synopsis.md   example.in.txt              testo_en.pdf
