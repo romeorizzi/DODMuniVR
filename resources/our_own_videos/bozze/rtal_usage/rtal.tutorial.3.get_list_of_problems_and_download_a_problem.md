@@ -12,7 +12,7 @@ Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.
   $ rtal -s wss://ta.di.univr.it/dodm list
   ```
 Il  risultato atteso è una lista di problemi, del tipo:
-    ```bash
+  ```bash
     - borse
     - conio1
     - conio3
@@ -25,7 +25,7 @@ Il  risultato atteso è una lista di problemi, del tipo:
     - shortest_paths
     - sudoku
     - triangolo
-    ```
+  ```
     _Nota:_ la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
     
 Per scaricare un problema della lista posizionati nella cartella scelta come cartella padre per i folder dei vari problemi affrontati:
