@@ -6,11 +6,11 @@ Per istanza, il problema è conio1.
 1. Per istanza, con la Bash Shell, 
   ci si sposta nella cartella dove abb scaricato e decompresso l'archivio *conio1* contenente i dati per risolvere il problema nella seguente directory: 
   ```bash
-  $ cd ~/Desktop/tutorial/problemi/conio1
+  $ cd ~/Desktop/DODM/rtal/conio1
   ```
 2. Il file python che contiene la soluzione si chiama *conio1.py* ed è inserito nella workdirectory seguente:
   ```bash
-  ~/Desktop/tutorial/problemi/conio1
+  ~/Desktop/DODM/rtal/conio1
   ```
 3. Avviamo il seguente comando per compilare *conio1.py*:
   ```bash
