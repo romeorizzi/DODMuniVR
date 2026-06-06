@@ -13,8 +13,8 @@ Spiegare step-by-step come installare l'eseguibile rtal.
        ```   
     * creiamo la cartella *tutorial* con
        ```bash
-         $ mkdir tutorial
-         $ cd tutorial
+         $ mkdir -p DODM/rtal
+         $ cd DODM/rtal
        ```
 5. Per scaricare il package si va al seguente [link](https://github.com/Guilucand/rtal-algo-client/releases)
   e si scarica la propria versione che dipende dal sistema operativo del calcolatore.
