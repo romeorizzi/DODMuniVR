@@ -26,7 +26,7 @@ Il  risultato atteso è una lista di problemi, del tipo:
     - sudoku
     - triangolo
   ```
-    *Nota:* la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
+    _Nota:_ la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
     
 Per scaricare un problema della lista posizionati nella cartella scelta come cartella padre per i folder dei vari problemi affrontati:
   ```bash
@@ -36,16 +36,11 @@ e poi, se a titolo di esempio vuoi scaricare il problema *conio1*, immetti il co
   ```bash
       $ rtal -s wss://ta.di.univr.it/dodm get conio1
   ```
-      ```
-Puoi verificare che nella cartella corrente sia stato scaricato il file di archivio con:
+Verifica che il file `conio1.tar` appaia ora nella lista dei file presenti nel folder corrente; lista che puoi ottenere immettendo:
   ```bash
-        $ ls
+        ls
   ```
-Il risultato atteso è:
-  ```bash
-        conio1.tar
-  ```
-Decomprimi/espandi l'archivio con:
+Decomprimi/espandi l'archivio  `conio1.tar` con:
   ```bash
         tar xf conio1.tar
   ```
