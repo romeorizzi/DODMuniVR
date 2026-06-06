@@ -17,7 +17,7 @@ installare l'eseguibile rtal (guida passo-passo)
        ```bash
          $ cd DODM/rtal
        ```
-5. Per scaricare il package vai a questo [link](https://github.com/Guilucand/rtal-algo-client/releases). Scarica la versione adatta al tuo sistema operativo e calcolatore. Un modo conveniente per farlo è copiare il link alla versione corretta (ad esempio la [versione Windows](https://github.com/Guilucand/rtal-algo-client/releases/download/V1.0.1/rtal-x86_64-pc-windows-msvc.tar.gz), 
+5. Per scaricare il package con `rtal` vai a questo [link](https://github.com/Guilucand/rtal-algo-client/releases). Scarica la versione adatta al tuo sistema operativo e calcolatore. Un modo conveniente per farlo è copiare il link alla versione corretta (ad esempio la [versione Windows](https://github.com/Guilucand/rtal-algo-client/releases/download/V1.0.1/rtal-x86_64-pc-windows-msvc.tar.gz), 
    tornare alla Bash Shell, e immettere la riga di comando:
    ```bash
    $ wget https://github.com/Guilucand/rtal-algo-client/releases/download/V1.0.1/rtal-x86_64-pc-windows-msvc.tar.gz
