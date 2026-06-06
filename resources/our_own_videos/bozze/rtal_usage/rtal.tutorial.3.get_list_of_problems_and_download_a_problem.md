@@ -11,7 +11,7 @@ Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.
   ```bash
   $ rtal -s wss://ta.di.univr.it/dodm list
   ```
-  * Il  risultato atteso è una lista di problemi, del tipo:
+Il  risultato atteso è una lista di problemi, del tipo:
     ```bash
     - borse
     - conio1
