@@ -1,0 +1,34 @@
+1. dynamic programming
+   knapsack, longest increasing subsequence, ...
+2. Linear Programming:
+   2.0. Gauss algorithm for solving systems of linear inequalities (extended, i.e., not only returns a feasible solution whenever one exists, but also returns a linear combinations of the constraints which is a contradiction, like e.g. 7 = 0, otherwise)
+   2.1. Simplex Method 
+   2.2. Weak duality theorem (statement required, proof for high marks)
+   2.3. Strong duality theorem (statement required, proof for high marks)
+   2.4. Complementary Slackness theorem (statement required, proof for high marks)
+3. graphs
+   3.1. connected graphs, bipartite graphs, planar graphs, duality of cuts and cycles
+   3.2. Euler paths and cycles (good characterizations and algorithm)
+   3.3. Hamilton cycles (NP-completeness, only for high marks)
+   3.4. minimum spanning trees, matchings, maximum flows
+4. NP-hardness proofs: 3-SAT, ILP, vertex cover, (Hamiltonian cycles and 3-colorability only for high marks)
+5. good characterizations, how to certify that: a graph is not bipartite, a directed graph is acyclic (i.e., a DAGs), maximume matchings in bipartite graphs, max-flow min-cut theorem, minimum spanning trees (statements required, proofs and/or algorithms for high marks)
+6. total unimodularity:
+  - just know that {Ax <= b, x >= 0} is an integral polyhedron when A is totally unimodular and b is an integer vector (knowing as to argue it only for the highest grades)
+  - edge-node incidence matrices of bipartite graphs are totally unimodular (knowing it required, proof for medium/high marks)
+  - network matrices are totally unimodular (knowing it required, proof for medium/high marks)
+  - knowing examples where these results on total unimodularity can be applied
+7. polyhedral descriptions:
+    - the s,t-flow polytope and the s,t-cut polytope
+    - s,t-path polytope
+    - shortest paths tree from s polytope
+    - matching polytope for bipartie graphs
+    - matching polytope for non-bipartite graphs
+    - spanning tree polytope
+8. approximation algorithms
+   - vertex cover
+   - TSP
+9. implicit versus explicit enumeration algorithms, branch&bound algorithms
+10. branch&cuts algorithms
+   - separating families of inequalities (examples: minimum spanning tree, matching in non-bipartite graphs, TSP)
+   - Gomory cuts
