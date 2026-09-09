@@ -1,7 +1,7 @@
-# Obiettivi
-Proporre l'uso del (sotto-)comando help per conoscere la sintassi ed argomenti dei sotto-comandi del comando `rtal`.
+# Mostreremo come
+avvalersi del sotto-comando `help` di `rtal`. Consigliamo di familiarizzare con l'uso di `help` per venire a conoscere la sintassi e gli argomenti dei vari sotto-comandi del comando `rtal`.
 
-# Lista di Dettaglio
+# Dettaglio
 1. Una volta installato `rtal`, puoi eseguire la linea di comando:
    ```bash
    $ rtal --help
@@ -26,7 +26,7 @@ Proporre l'uso del (sotto-)comando help per conoscere la sintassi ed argomenti d
           login
           logout
      ```
- 2. Dalla scrittura `rtal [OPTIONS] <SUBCOMMAND>` scopriamo che il corretto ordine nell'invocazione di un (sotto-)comando è quello esemplificato ora, per ottenere aiuto sul comando list:
+ 2. Dalla scrittura `rtal [OPTIONS] <SUBCOMMAND>` scopriamo che il corretto ordine nell'invocazione di un (sotto-)comando di `rtal` è quello esemplificato qui sotto, per ottenere aiuto sul comando list:
     ```bash
     $ rtal help list
     ```

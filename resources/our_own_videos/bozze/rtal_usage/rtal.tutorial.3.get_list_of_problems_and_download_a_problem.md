@@ -1,19 +1,18 @@
-# Obiettivo
-Mostrare come
+# Mostreremo come
 * visualizzare la lista dei problemi di una collection col comando `list`,
 * scaricarsi i materiali pubblici di un problema.
 
-# Lista Dettaglio
-La sintassi sarebbe:
+# Dettaglio
+Una sintassi base del comando `list` sarebbe:
   ```bash
-  $ rtal -s <URL-collection-problemi>
+  $ rtal -s <URL-collection-problemi> list
   ```
 Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.univr.it/dodm` che va quindi specificato come argomento server (`-s`):
   ```bash
   $ rtal -s wss://ta.di.univr.it/dodm list
   ```
-  * Il  risultato atteso è una lista di problemi, del tipo:
-    ```bash
+Il  risultato atteso è una lista di problemi, del tipo:
+  ```bash
     - borse
     - conio1
     - conio3
@@ -26,36 +25,35 @@ Per il corso DODM, la collection per gli homework si trova all'URL `wss://ta.di.
     - shortest_paths
     - sudoku
     - triangolo
-    ```
+  ```
     _Nota:_ la lista dei problemi proposti come homework tende ad allungarsi entro uno stesso anno accademico.
-2. Per scaricare un problema:
-  1. Posizionati nella directory che si è scelta come cartella padre per le cartelle dei vari problemi affrontati:
-      ```bash
+    
+Per scaricare un problema della lista posizionati nella cartella scelta come cartella padre per i folder dei vari problemi affrontati:
+  ```bash
       $ cd ~/Desktop/DODM/rtal
-      ```
-  2. A titolo di esempio, per scaricare il problema *conio1*, il comando è il seguente:
-      ```bash
+  ```
+e poi, se a titolo di esempio vuoi scaricare il problema *conio1*, immetti il comando:
+  ```bash
       $ rtal -s wss://ta.di.univr.it/dodm get conio1
-      ```
-      * Verifica che nella cartella corrente sia stato scaricato il file di archivio:
-        ```bash
-        $ ls
-        ```
-        Il risultato atteso è:
-        ```bash
-        conio1.tar
-        ```
-  4. Decomprimi/espandi l'archivio del problema scaricato e visualizza il contenuto:
-        ```bash
+  ```
+Verifica che il file `conio1.tar` appaia ora nella lista dei file presenti nel folder corrente; lista che puoi ottenere col comando:
+  ```bash
+        ls
+  ```
+Decomprimi/espandi l'archivio  `conio1.tar` con:
+  ```bash
         tar xf conio1.tar
+  ```
+Visualizzane il contenuto con:
+  ```bash
         cd conio1
         ls
-        ```
-        *  Verifica che il risultato della linea di comando precedente sia qualcosa di simile a:
-        ```bash
+  ```
+L'output sulla shell al comando precedente comando dovrebbe essere qualcosa di simile a:
+  ```bash
         README_rtal.md       conio1_template_gurobi.py*  meta.yaml
         README_synopsis.md   example.in.txt              testo_en.pdf
         conio1_template.py*  example.out.txt             testo_it.pdf
-        ```
-        Questa lista di file rappresenta il materiale che serve a svolgere e verificare localmente il problema scaricato.
+  ```
+Questi file sono tutto il materiale che ti serve per poter svolgere e verificare localmente il problema scaricato.
         
