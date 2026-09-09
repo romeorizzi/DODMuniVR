@@ -1,5 +1,5 @@
 # Mostreremo come
-verificare localmente il codice della soluzione scritta per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`.
+verificare localmente il codice della soluzione scritta per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`. Questa operazione può essere condotta anche senza rete (offline).
 
 # Dettaglio
 1. Con la Bash Shell, portati nella cartella dove hai scaricato e decompresso l'archivio del problema di interesse (che qui assumeremo essere *conio1*):
@@ -48,33 +48,3 @@ verificare localmente il codice della soluzione scritta per un problema. Consigl
    $ python conio1.py < ./input.txt
 ```
    
-5. Per automatizzare questo procedimento immetti la seguente linea di comando:
-   ```bash
-   $ rtal -s wss://ta.di.univr.it/dodm connect -f source=conio1.py -a size=esempi_testo conio1 -- python conio1.py
-   ```
-   Con questa linea di comando `rtal`:
-   1. si connette al server,
-   2. si collega all'input posto in *esempi_testo* per il problema *conio1*,
-   3. richiama il Python globale della tua macchina e il file *conio1.py* che deve essere eseguito.
-   * Il risultato atteso è:
-   ```bash
-   WARN Received new subtask, restarting user program...
-   Received "./output/README_synopsis.md"
-   Received "./output/log.txt"
-   Received "./output/results.txt"
-   Received "./output/README_rtal.md"
-   Received "./output/results.yaml"
-   Received "./output/results_with_feedback.txt"
-   ```
-6. Per visualizzare i risultati ottenuti dal server, immetti la seguente linea di comando:
-   ```bash
-   $ less ./output/results.txt
-   ```
-   * Il risultato atteso, se la soluzione è corretta, è:
-     ```bash
-     Subtask 1 (4 testcases):
-     Case #001 [esempi_testo - hardcoded]: AC (0.500 secs/1.000 secs) All correct (got 2/2 points)
-     Case #002 [esempi_testo - hardcoded]: AC (0.010 secs/1.000 secs) All correct (got 2/2 points)
-     Case #003 [esempi_testo - hardcoded]: AC (0.008 secs/1.000 secs) All correct (got 2/2 points)
-     Case #004 [esempi_testo - hardcoded]: AC (0.010 secs/1.000 secs) All correct (got 2/2 points)
-     ```
