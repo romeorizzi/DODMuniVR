@@ -3,7 +3,7 @@ Ottenere validazione della nostra soluzione (con feedback immediato) dal server.
 
 # Dettaglio  
 La filosofia è sempre quella di procedere prudentemente per passi.  
-Dopo aver speso i primi test in locale (come visto al tutorial *test solution locally*), si immetta il seguente comando per far interagire la nostra soluzione in locale col server:
+Dopo aver speso i primi test in locale (come visto al tutorial *test solution locally*), si immetta il seguente comando per far interagire la nostra soluzione in locale col server nel cloud:
    ```bash
    $ rtal -s wss://ta.di.univr.it/dodm connect -f source=conio1.py -a size=esempi_testo conio1 -- python conio1.py
    ```
@@ -40,7 +40,7 @@ Dopo aver speso i primi test in locale (come visto al tutorial *test solution lo
 8. se quanto il tuo programma deve immettere su `stdout` nel rispetto del protocollo di comunicazione stabilito dal problema non ti basta a realizzare pienamente cosa stà succedendo, puoi procedere con un print debugging arbitrariamente fine ritoccando la tua soluzione contenuta nel file `conio1.py` affinchè, nel suo procedere passo passo, riporti su `stderr` o su un qualche file le informazioni che possono aiutarti. Quanto la tua soluzione stamperà su `stderr` apparirà sul tuo terminale dove hai invocato `rtal` (con ogni sincronicità rispettata del caso ti avvali anche del meccanismo di echo, ossia del flag `-e`).
 
 
-## Nota finale
+## Considerazioni finali e di contesto
 
 All'invocazione di `rtal`, come da tutorial precedente, il set di istanze viene specificato tramite l'argomento `size` del comando `connect` (la riga di comando conteneva infatti `-a size=esempi_testo` dacchè è bene che il primissimo riscontro vada ricercato affrontando istanze già note).
 Nel testo del problema si specificano vari possibili subtasks più o meno impegnativi da risolvere (vuoi perchè alcuni concentrano l'attenzione solo su casi particolari del problema, o perchè propongono istanze più grandi che richiedono soluzioni computazionalmente più efficienti per risultare sostenibili). Tali subtask sono solitamente collocati in un ordine totale di difficoltà, di cui il primo è tipicamente `esempi_testo`, e l'ultimo (il cui nome varia da problema a problema) è tipicamente il valore di default per l'argomento `size`.
