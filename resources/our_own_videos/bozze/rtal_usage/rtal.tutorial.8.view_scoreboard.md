@@ -1,5 +1,5 @@
 # Mostreremo come
-Visualizzare i risultati raccolti per ogni soluzione sottomessa e registrata al server, per ottenere un resoconto complessivo dei punti ottenuti in aggiunta alla valutazione finale del corso.
+Visualizzare un resoconto complessivo dei punti attualmente già ottenuti sui vari problemi, punteggio totale e livello attuale di bonus che concorrerà alla valutazione finale del corso (da 0 a 5 gradi di voto).
 
 # Dettaglio
 1. Apri la Bash Shell.
