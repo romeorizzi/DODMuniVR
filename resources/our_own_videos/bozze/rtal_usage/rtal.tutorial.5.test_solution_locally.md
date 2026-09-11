@@ -1,5 +1,5 @@
 # Mostreremo come
-verificare localmente il codice della soluzione scritta per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`. Questa operazione può essere condotta anche senza rete (offline).
+Verificare localmente il codice della soluzione scritta per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`. Questa operazione può essere condotta anche senza rete (offline).
 
 # Dettaglio
 1. Con la Bash Shell, portati nella cartella dove hai scaricato e decompresso l'archivio del problema di interesse (che qui assumeremo essere *conio1*):

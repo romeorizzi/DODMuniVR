@@ -1,5 +1,5 @@
 # Mostreremo come
-visualizzare i risultati raccolti per ogni soluzione sottomessa e registrata al server, per ottenere un resoconto del tuo andamento e quantificare i punti che stai accumulando in aggiunta alla tua valutazione finale del corso.
+Visualizzare i risultati raccolti per ogni soluzione sottomessa e registrata al server, per ottenere un resoconto complessivo dei punti ottenuti in aggiunta alla valutazione finale del corso.
 
 # Dettaglio
 1. Apri la Bash Shell.

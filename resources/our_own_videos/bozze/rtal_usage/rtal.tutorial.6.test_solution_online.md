@@ -1,8 +1,9 @@
 # Mostreremo come
-far verificare il codice della soluzione al server. Questa operazione necessita di accesso alla rete e del client `rtal`.
+Far verificare il codice della soluzione al server. Questa operazione necessita di accesso alla rete e del client `rtal`.
 
-# Dettaglio
-La filosofia è sempre quella di proocedere prudentemente per passi. Pertanto, dopo aver speso i primi test in locale, si effettuerà una prima sottomissione al server restringendo l'attenzione alle sole istanze del testo
+# Dettaglio  
+La filosofia è sempre quella di procedere prudentemente per passi.  
+Pertanto, dopo aver speso i primi test in locale di cui al tutorial *test solution locally*, si invierà al server il seguente comando:
    ```bash
    $ rtal -s wss://ta.di.univr.it/dodm connect -f source=conio1.py -a size=esempi_testo conio1 -- python conio1.py
    ```

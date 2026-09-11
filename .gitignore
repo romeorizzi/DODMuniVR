@@ -1,6 +1,7 @@
+.gitignore
 # renditions
 #*.pdf
-
+DiscreteOpt.txt
 # backups
 *~
 *.bak
@@ -36,4 +37,5 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.class
+
 

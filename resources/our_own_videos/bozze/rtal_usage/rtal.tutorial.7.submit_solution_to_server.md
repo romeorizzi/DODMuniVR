@@ -1,9 +1,11 @@
 # Mostreremo come
-sottomettere la soluzione al server per testarla sull'intero range di istanze disponibili e registrare il risultato a livello ufficiale.
-La somma dei risultati ottenuti per ogni problema affrontato ti aiuterà ad accumulare punti aggiuntivi alla valutazione finale del corso.
+Sottomettere la soluzione al server per il collaudo definitivo su tutte le istanze.
+* **Valutazione delle istanze**: Per ogni singola istanza del problema, il server verifica la correttezza del risultato e il rispetto dei tempi di esecuzione, assegnando un punteggio parziale.
+* **Registrazione del punteggio**: Il server memorizza il punteggio totale ottenuto per ciascun problema.
+* **Bonus per l'esame**: La somma dei punti accumulati nei vari problemi colloca lo studente in uno specifico scaglione di merito, a cui corrisponde un punteggio extra da sommare al voto finale dell'esame.
 
 # Dettaglio
-1. Come esempio si considera il problema *conio1*. Portati nella cartella contenente il file della soluzione:
+1. Come esempio si considera il problema *conio1*, quindi portiamoci nella cartella contenente il file della soluzione:
    ```bash
    $ cd ~/Desktop/DODM/rtal/conio1
    ```
