@@ -8,9 +8,7 @@ Per ottenere validazione e valutazione su tutti i subtask basterà pertanto omet
 Questa possibilità di gradare la difficolatà viene particolarmente utile nel fare i primi test e ottenere i primi riscontri.
 
 ## Tieni presente che
-Per ogni problema, puoi sottomettere quante volte vuoi e, se il problema è oggetto anche di valutazione, ti verrà tenuto buono il punteggio più alto mai ottenuto da una tua sottomissione.** 
-
-
+* Per ogni problema, puoi sottomettere quante volte vuoi e, se il problema è oggetto anche di valutazione, ti verrà tenuto buono il punteggio più alto mai ottenuto da una tua sottomissione.** 
 * **Valutazione delle istanze**: Per ogni singola istanza del problema, il server verifica la correttezza del risultato e il rispetto dei tempi di esecuzione, assegnando un punteggio parziale.
 * **Registrazione del punteggio**: Il server memorizza ogni sottomissione e relativo punteggio.
 * **Scoreboard**: In ogni momento puoi chiedere al server un report del tuo punteggio attuale su tutti i problemi. (Il prossimo tutorial ti mostra come invocare questo servizio.)
