@@ -1,5 +1,5 @@
 # Mostreremo come
-Verificare localmente il codice della soluzione scritta per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`. Questa operazione può essere condotta anche senza rete (offline).
+Verificare localmente il codice di una soluzione che hai scritto per un problema. Consigliamo di spendere tale verifica prima di sottomettere le proprie soluzioni al server tramite `rtal`. Questa operazione può essere condotta anche senza rete (offline).
 
 # Dettaglio
 1. Con la Bash Shell, portati nella cartella dove hai scaricato e decompresso l'archivio del problema di interesse (che qui assumeremo essere *conio1*):
@@ -10,7 +10,7 @@ Verificare localmente il codice della soluzione scritta per un problema. Consigl
    ```bash
    ~/Desktop/DODM/rtal/conio1
    ```
-3. Lanciamo il seguente comando per eseguire *conio1.py*:
+3. Lancia il seguente comando per eseguire *conio1.py*:
    ```bash
    $ python conio1.py
    ```
@@ -43,8 +43,9 @@ Verificare localmente il codice della soluzione scritta per un problema. Consigl
    3464
    0 2 1 1 1 1 0 1 1 3456
    ```
-   Specie quando le istanze dovessero trovare codifica su più righe, ti potrà convenire procedere di copia incolla (da ambiente grafico il più delle volte lo shortcut per copiare sarà Ctrl-C, ma per incollare su terminale si usa Ctrl-Shif-V; per copiare su terminale si usa Ctrl-Shif-C, in entrambi gli ambienti funziona il tasto destro del mouse) o, ancora più conveniente, utilizzare la redirezione da o verso file. Assumendo che il file input.txt contenga quelle 5 righe di input:
+   Specie quando le istanze dovessero trovare codifica su più righe, ti potrà convenire procedere di copia incolla (da ambiente grafico il più delle volte lo shortcut per copiare sarà Ctrl-C, ma per incollare su terminale si usa Ctrl-Shif-V; per copiare su terminale si usa Ctrl-Shif-C, in entrambi gli ambienti funziona il tasto destro del mouse) o, ancora più conveniente, utilizzare la redirezione da o verso file. Assumendo che il file `example.in.txt` contenga quelle 5 righe di input:
 ```bash
-   $ python conio1.py < ./input.txt
+   $ python conio1.py < ./example.in.txt
 ```
+   Abbiamo quì assunto che il file `./example.in.txt` risieda nella directory corrente, in caso contrario al posto della specifica di directory corrente (il punto) dovarai immettere il path relativo o l'intero path assoluto.
    
